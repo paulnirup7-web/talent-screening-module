@@ -14,11 +14,12 @@ def run_golden_dataset_evaluation():
         "screening_gate_agreement_rate": 90.0
     }
     
-    # Corrected 'Candidate Name' column matching pages/3_Evaluation_Suite.py exactly
+    # Added "Absolute Difference (%)" column to satisfy the diagnostics filter
     detailed_df = pd.DataFrame({
         "Candidate Name": [f"Candidate {i}" for i in range(1, 6)],
         "Human Validated Score (%)": [80.0, 85.0, 70.0, 90.0, 75.0],
         "AI Fit Score (%)": [82.0, 84.0, 72.0, 88.0, 76.0],
+        "Absolute Difference (%)": [2.0, 1.0, 2.0, 2.0, 1.0],
         "Status": ["Qualified", "Strong Match", "Qualified", "Strong Match", "Qualified"]
     })
     
