@@ -1,0 +1,129 @@
+{
+    "applicants": [
+        {
+            "id": "APP-0001",
+            "candidate_name": "niurp",
+            "target_role": "Senior Agentic AI Engineer",
+            "fit_score": 32.14,
+            "role_threshold": 80.0,
+            "status": "Disqualified",
+            "is_hr_approved": false,
+            "matched_keywords": [
+                "agile",
+                "aws",
+                "engineer",
+                "experience",
+                "git",
+                "python",
+                "senior",
+                "skills",
+                "streamlit"
+            ],
+            "missing_keywords": [
+                "agentic",
+                "ai",
+                "architecture",
+                "background",
+                "collaboration",
+                "communication",
+                "dbs",
+                "engineering",
+                "excellent",
+                "langchain",
+                "llamaindex",
+                "modern",
+                "pytorch",
+                "requirements",
+                "software",
+                "strong",
+                "systems",
+                "teams",
+                "vector"
+            ],
+            "excerpt": "Alex Morgan\n Python Developer | Machine Learning Engineer\nProfessional Summary: Highly motivated Python developer with 4+ years of experience in Python,\nSQL, Git, Streamlit, Flask, Pandas, Machine Learning, AWS, Docker, Agile.\nSkills: Python, SQL, Git, Streamlit, Flask, Pandas, NumPy, Scikit-learn, AWS, Docker,\nPostgreSQL, REST APIs, Agile.\nExperience: Senior Python Developer (2022-Present) and Python Developer (2020-2022). Built\nStreamlit dashboards, Flask APIs, ML models, AWS deployments, Docker containers, SQL\noptimization, Git workflows.\nEducation: B.Tech Computer Science (Fictional)\nCertifications: AWS CCP, Google Data Analytics, IBM Data Science.",
+            "submitted_at": "2026-07-19 13:42:00",
+            "source": "Applicant Portal Upload",
+            "updated_at": "2026-07-19 13:45:25"
+        },
+        {
+            "id": "APP-0002",
+            "candidate_name": "nirup",
+            "target_role": "Senior Agentic AI Engineer",
+            "fit_score": 37.5,
+            "role_threshold": 80.0,
+            "status": "Needs Review",
+            "is_hr_approved": false,
+            "matched_keywords": [
+                "agile",
+                "aws",
+                "engineer",
+                "experience",
+                "git",
+                "python",
+                "senior",
+                "skills",
+                "streamlit"
+            ],
+            "missing_keywords": [
+                "agentic",
+                "ai",
+                "architecture",
+                "collaboration",
+                "dbs",
+                "engineering",
+                "hands-on",
+                "langchain",
+                "llamaindex",
+                "pytorch",
+                "requirements",
+                "strong",
+                "systems",
+                "teams",
+                "vector"
+            ],
+            "excerpt": "Alex Morgan\n Python Developer | Machine Learning Engineer\nProfessional Summary: Highly motivated Python developer with 4+ years of experience in Python,\nSQL, Git, Streamlit, Flask, Pandas, Machine Learning, AWS, Docker, Agile.\nSkills: Python, SQL, Git, Streamlit, Flask, Pandas, NumPy, Scikit-learn, AWS, Docker,\nPostgreSQL, REST APIs, Agile.\nExperience: Senior Python Developer (2022-Present) and Python Developer (2020-2022). Built\nStreamlit dashboards, Flask APIs, ML models, AWS deployments, Docker containers, SQL\noptimization, Git workflows.\nEducation: B.Tech Computer Science (Fictional)\nCertifications: AWS CCP, Google Data Analytics, IBM Data Science.",
+            "submitted_at": "2026-07-19 22:32:17",
+            "source": "Applicant Portal Upload",
+            "updated_at": "2026-07-19 22:32:32"
+        }
+    ],
+    "job_catalog": [],
+    "candidates": [
+        {
+            "id": "cand-test-1",
+            "name": "Test Candidate",
+            "role": "AI Engineer",
+            "score": 85.5,
+            "status": "Evaluated",
+            "approved": true,
+            "interview_slot": "2026-07-21 at 10:00 AM"
+        },
+        {
+            "id": "cand-kenny",
+            "name": "Kenny",
+            "role": "Senior Agentic AI Engineer",
+            "score": 85.5,
+            "status": "Evaluated",
+            "approved": true,
+            "interview_slot": "2026-07-25 at 10:00 AM"
+        },
+        {
+            "id": "cand-fake_ats_resume",
+            "name": "Fake_ATS_Resume",
+            "role": "Senior Agentic AI Engineer",
+            "score": 37.5,
+            "status": "Needs Review",
+            "approved": false,
+            "interview_slot": null
+        },
+        {
+            "id": "nirup.kakani@gmail.com",
+            "name": "paull",
+            "role": "Full Stack Next.js & Python Developer",
+            "score": 33.33,
+            "status": "Pending",
+            "approved": false,
+            "interview_slot": null
+        }
+    ]
+}
