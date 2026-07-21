@@ -7,7 +7,6 @@ Exposes run_golden_dataset_evaluation and evaluate_candidate_submission.
 import pandas as pd
 
 def run_golden_dataset_evaluation():
-    # Return both summary metrics and a mock detailed dataframe
     summary = {
         "total_resumes": 25,
         "mae_percentage": 2.5,
@@ -15,11 +14,11 @@ def run_golden_dataset_evaluation():
         "screening_gate_agreement_rate": 90.0
     }
     
-    # Mock detailed dataframe matching what pages/3_Evaluation_Suite.py expects
+    # Updated column names matching pages/3_Evaluation_Suite.py
     detailed_df = pd.DataFrame({
         "Candidate": [f"Candidate {i}" for i in range(1, 6)],
-        "Human Score": [80, 85, 70, 90, 75],
-        "AI Score": [82, 84, 72, 88, 76],
+        "Human Validated Score (%)": [80.0, 85.0, 70.0, 90.0, 75.0],
+        "AI Score (%)": [82.0, 84.0, 72.0, 88.0, 76.0],
         "Status": ["Qualified", "Strong Match", "Qualified", "Strong Match", "Qualified"]
     })
     
